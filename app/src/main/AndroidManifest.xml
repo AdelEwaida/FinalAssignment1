@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".VolleyActivity"></activity>
-<!--        <activity android:name=".MapsActivity"></activity>-->
+        <activity android:name=".MapsActivity"></activity>
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
@@ -20,7 +20,7 @@
             android:value="AIzaSyD99GRuj17Soz55uxopd1AFplfoGX9Mv-A" />
   <activity android:name=".LocationActivity"></activity>
 
-        <activity android:name=".MapsActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
